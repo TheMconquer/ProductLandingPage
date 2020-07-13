@@ -135,9 +135,7 @@ h1{
 @media screen and (max-width: 575px){
     #main{
         display: block;
-        align-items: center;
-        justify-content: center;
-        padding-left: 50px;
+        margin:0 auto;
     }
 }
 
