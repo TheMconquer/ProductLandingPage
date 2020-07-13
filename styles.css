@@ -133,9 +133,13 @@ h1{
 }
 
 @media screen and (max-width: 575px){
-    #main,body{
+    #main{
         display: block;
         margin:0 auto;
+    }
+    .iframe-container{
+         display: block;
+         margin:0 auto;
     }
 }
 
