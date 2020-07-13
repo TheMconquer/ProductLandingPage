@@ -1,0 +1,185 @@
+@import url(https://fonts.google.com/specimen/Playfair+Display?sidebar.open&selection.family=Playfair+Display);
+*{
+    margin:0;
+    padding: 0;
+    
+}
+html{
+    background: wheat;
+    font-family: PT Sans;
+    box-sizing: border-box;
+    color: #000;
+    
+}
+header{
+    overflow: hidden;
+}
+header a{
+    float: left;
+    color:  #000;
+    line-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+.header-right{
+    float: right;
+}
+.header-right a {
+    position: relative;
+    top: 10px;
+    padding: 12px;
+}
+.img-logo{
+    width: 50px;
+    padding: 5px;
+}
+.company-name{
+    position: relative;
+    top: 18px;
+    height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.email-div{
+    text-align: center;
+}
+h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#email{
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+#btn{
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.container{
+    padding-top: 50px;
+    max-width: 680px;
+    margin: 0 auto;
+}
+.grid{
+    display: flex;
+    align-items: center;
+}
+.img-icon{
+    width: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.icon-description{
+    text-align: left;
+    padding-bottom: 50px;
+   
+}
+
+
+.iframe-container {
+    text-align: center;
+    overflow: hidden;
+    padding-top: 56.25%; 
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+   
+ }
+
+#main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#main div{
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+.level {
+    background-color: #f6e2bb;
+    color: #000;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.instrument p{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0 auto;
+    word-wrap: break-word; 
+    text-align: left;
+}
+
+@media screen and (max-width: 575px){
+    #main{
+        display: block;
+    }
+}
+
+
+.btn {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    border-radius: 2px;
+    transition: 0.4s;
+    cursor: pointer;
+   
+}
+.button-h:hover{
+    background-color: #ffb833; 
+    color: #f6e2bb;
+}
+
+.btn-spacing{
+    margin-top: 55px;
+}
+footer{
+    margin-top: 20px;
+    background-color: #f6e2bb;
+}
+footer a{
+    float: left;
+    color:  #000;
+    line-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 12px;
+    border: 1px solid #f6e2bb;
+    margin-left: 10px;
+}
+footer p{
+    text-align: right;
+    padding-right: 30px;
+}
+
+.main-footer{
+    float: right;
+}
